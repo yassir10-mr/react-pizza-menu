@@ -92,8 +92,6 @@ function Menu() {
 }
 
 function Pizza({ pizzaObjt }) {
-  console.log(pizzaObjt);
-
   return (
     <li className={`pizza ${pizzaObjt.soldOut ? "sold-out" : ""}`}>
       <img src={pizzaObjt.photoName} alt={pizzaObjt.name} />
